@@ -1,0 +1,18 @@
+# Core RAG Dependencies
+streamlit>=1.41.1
+langchain>=0.3.14
+langchain-community>=0.3.10
+langchain-classic>=0.0.1
+langchain-chroma>=0.1.4
+langchain-text-splitters>=0.3.3
+chromadb>=0.5.20
+pypdf>=4.3.1
+python-dotenv>=1.0.1
+
+# IBM Watsonx (LLM)
+langchain-ibm>=0.3.0
+ibm-watsonx-ai>=1.1.0
+
+# HuggingFace (Embeddings)
+langchain-huggingface>=0.1.2
+sentence-transformers>=3.3.1

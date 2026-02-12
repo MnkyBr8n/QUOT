@@ -1,0 +1,3 @@
+# Root-level dependencies for chainlit.py
+# Also install the requirements.txt for your chosen provider (e.g. openai/).
+chainlit>=2.0.0

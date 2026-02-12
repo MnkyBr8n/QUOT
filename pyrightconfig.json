@@ -1,0 +1,14 @@
+{
+  "pythonVersion": "3.10",
+  "typeCheckingMode": "basic",
+  "extraPaths": [
+    "./fastAPI",
+    "./openai",
+    "./anthropic",
+    "./google",
+    "./hugging_face",
+    "./watsonX",
+    "./multi",
+    "./loggers"
+  ]
+}

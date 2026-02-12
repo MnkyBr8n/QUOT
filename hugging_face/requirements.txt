@@ -1,0 +1,51 @@
+# Core RAG Dependencies
+streamlit>=1.41.1
+langchain>=0.3.14
+langchain-community>=0.3.10
+langchain-classic>=0.0.1
+langchain-chroma>=0.1.4
+langchain-text-splitters>=0.3.3
+chromadb>=0.5.20
+pypdf>=4.3.1
+python-dotenv>=1.0.1
+
+# HuggingFace - Embeddings (always needed)
+langchain-huggingface>=0.1.2
+sentence-transformers>=3.3.1
+
+# HuggingFace - API Mode (minimal, recommended for starting)
+# Only needed if USE_LOCAL_MODEL=false
+huggingface-hub>=0.27.0
+
+# HuggingFace - Local Mode (optional, larger install)
+# Only needed if USE_LOCAL_MODEL=true
+# Uncomment these lines to run models locally:
+# transformers>=4.47.0
+# torch>=2.5.0
+# accelerate>=1.2.0
+# bitsandbytes>=0.45.0  # For 8-bit quantization (saves memory)
+
+# Optional: FastAPI
+fastapi>=0.115.0
+uvicorn>=0.32.0
+python-multipart>=0.0.12
+
+# Optional: Discord
+discord.py>=2.4.0
+aiohttp>=3.11.0
+
+# ============================================================================
+# INSTALLATION GUIDE
+# ============================================================================
+#
+# For API Mode (recommended for starting):
+#   pip install -r requirements.txt
+#
+# For Local Mode (run models on your machine):
+#   1. Uncomment the "Local Mode" dependencies above
+#   2. pip install -r requirements.txt
+#
+# For GPU Support (makes local models much faster):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu118
+#
+# ============================================================================

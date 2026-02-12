@@ -1,0 +1,20 @@
+{
+  "MD013": {
+    "line_length": 160,
+    "tables": false,
+    "code_blocks": false
+  },
+  "MD022": {
+    "lines_above": 1,
+    "lines_below": 0
+  },
+  "MD024": { "siblings_only": true },
+  "MD026": { "punctuation": ".,;!" },
+  "MD029": { "style": "ordered" },
+  "MD031": false,
+  "MD032": false,
+  "MD034": false,
+  "MD036": false,
+  "MD040": false,
+  "MD060": { "style": "spaced" }
+}

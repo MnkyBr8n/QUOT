@@ -1,0 +1,35 @@
+# Core Dependencies
+streamlit>=1.41.1
+langchain>=0.3.14
+langchain-community>=0.3.10
+langchain-classic>=0.0.1
+langchain-chroma>=0.1.4
+langchain-text-splitters>=0.3.3
+chromadb>=0.5.20
+pypdf>=4.3.1
+python-dotenv>=1.0.1
+
+# Optional: FastAPI
+fastapi>=0.115.0
+uvicorn>=0.32.0
+python-multipart>=0.0.12
+
+# Optional: Discord
+discord.py>=2.4.0
+aiohttp>=3.11.0
+
+# Provider: IBM Watsonx
+langchain-ibm>=0.3.0
+ibm-watsonx-ai>=1.1.0
+
+# Provider: OpenAI
+langchain-openai>=0.3.0
+openai>=1.58.0
+
+# Provider: Anthropic
+langchain-anthropic>=0.3.0
+anthropic>=0.42.0
+
+# Provider: Google Gemini
+langchain-google-genai>=2.0.0
+google-generativeai>=0.8.0

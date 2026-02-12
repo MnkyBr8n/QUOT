@@ -1,0 +1,9 @@
+[MASTER]
+# Add all source directories to sys.path so pylint resolves local imports.
+# Run pylint from the repo root for these relative paths to work.
+init-hook='import sys, os; [sys.path.insert(0, os.path.abspath(d)) for d in ["fastAPI", "openai", "anthropic", "google", "hugging_face", "watsonX", "multi", "loggers"]]'
+
+py-version = 3.10
+
+[FORMAT]
+max-line-length = 100
